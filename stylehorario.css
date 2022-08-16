@@ -1,0 +1,87 @@
+.margen {
+    padding: 5px;
+
+}
+
+.pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+
+
+#principal {
+
+    text-align: center;
+  
+}
+
+.contenedor {
+    background: #b9fffb;
+    border: 1px solid #999999;
+    padding: 0 20px 35px 5px;
+}
+
+
+.encabezado {
+    text-align: center;
+    margin: 40px 80px 16px 85px;
+    font-style: italic;
+
+}
+
+.foto1 {
+    width: 120px;
+    height: 120px;
+    margin: 11px;
+    margin-left: 1px;
+    border: 2px solid black;
+    float: left;
+}
+
+
+.foto2 {
+
+    width: 100px;
+    height: 100px;
+    margin: 22px 80px 16px 25px;
+    border: 2px solid black;
+    float: left;
+}
+
+
+#agrupar {
+    width: 95%;
+    margin: 15px auto;
+    
+    }
+
+.articulos{
+  
+    text-align: center;
+   
+   
+    margin: 16px  auto;
+   
+   
+}
+
+@media screen and (max-width: 1200px) {
+
+    .foto1 {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1201px) {
+
+    .foto2 {
+        display: none;
+
+    }
+
+}
